@@ -30,8 +30,8 @@
         </select>
       </div>
       <div class="flex justify-between">
-        <button type="button" @click="$emit('cancel')" class="hover:bg-red-500 hover:bg-opacity-25 text-red-400 font-semibold hover:text-white py-2 px-4 border border-slate-700 hover:border-red-500 rounded-lg">Annuler</button>
-        <button type="submit" class="hover:bg-sky-500 hover:bg-opacity-25 text-sky-400 font-semibold hover:text-white py-2 px-4 border border-slate-700 hover:border-sky-500 rounded-lg">Ajouter</button>
+        <button type="button" @click="$emit('cancel')" class="hover:bg-red-500 hover:bg-opacity-25 text-red-400 font-semibold hover:text-white py-2 px-4 border border-slate-700 hover:border-red-500 rounded-lg hover:shadow-lg shadow-red-500">Annuler</button>
+        <button type="submit" class="hover:bg-sky-500 hover:bg-opacity-25 text-sky-400 font-semibold hover:text-white py-2 px-4 border border-slate-700 hover:border-sky-500 rounded-lg hover:shadow-lg shadow-sky-500">Ajouter</button>
       </div>
     </div>
   </form>
