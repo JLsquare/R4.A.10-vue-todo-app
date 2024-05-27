@@ -9,7 +9,7 @@
           <p>État : {{ task.status }}</p>
           <p>Priorité : {{ task.priority }}</p>
         </div>
-        <div class="flex space-x-4">
+        <div class="flex gap-4 flex-col sm:flex-row">
           <!-- Edit Task Button -->
           <button @click="editTask(task)" class="hover:bg-sky-500 hover:bg-opacity-25 text-sky-400 font-semibold hover:text-sky-500 dark:hover:text-white py-2 px-4 border dark:border-slate-700 hover:border-sky-500 dark:hover:border-sky-500 rounded-lg hover:shadow-lg shadow-sky-500 transition">
             Modifier
