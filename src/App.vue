@@ -49,12 +49,12 @@
         <!-- Start Date Filter -->
         <div class="transform transition duration-300 hover:-translate-y-1 hover:drop-shadow-md dark:hover:drop-shadow-lg">
           <label for="startDateFilter" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Date de début</label>
-          <input type="date" v-model="startDateFilter" id="startDateFilter" class="mt-1 px-2 py-1 border rounded-lg w-full dark:bg-slate-900 dark:border-gray-700 dark:text-white">
+          <input type="date" v-model="startDateFilter" id="startDateFilter" class="mt-1 px-2 py-1 border rounded-lg w-full dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:[&::-webkit-calendar-picker-indicator]:invert">
         </div>
         <!-- End Date Filter -->
         <div class="transform transition duration-300 hover:-translate-y-1 hover:drop-shadow-md dark:hover:drop-shadow-lg">
           <label for="endDateFilter" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Date de fin</label>
-          <input type="date" v-model="endDateFilter" id="endDateFilter" class="mt-1 px-2 py-1 border rounded-lg w-full dark:bg-slate-900 dark:border-gray-700 dark:text-white">
+          <input type="date" v-model="endDateFilter" id="endDateFilter" class="mt-1 px-2 py-1 border rounded-lg w-full dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:[&::-webkit-calendar-picker-indicator]:invert">
         </div>
       </div>
 

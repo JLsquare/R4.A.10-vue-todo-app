@@ -9,12 +9,12 @@
       <!-- Start Date -->
       <div>
         <label for="startDate" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Date de début</label>
-        <input type="date" v-model="task.startDate" id="startDate" class="mt-1 px-2 py-1 border rounded-lg w-full dark:bg-slate-900 dark:border-gray-700 dark:text-white" required>
+        <input type="date" v-model="task.startDate" id="startDate" class="mt-1 px-2 py-1 border rounded-lg w-full dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:[&::-webkit-calendar-picker-indicator]:invert" required>
       </div>
       <!-- End Date -->
       <div>
         <label for="endDate" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Date de fin</label>
-        <input type="date" v-model="task.endDate" id="endDate" class="mt-1 px-2 py-1 border rounded-lg w-full dark:bg-slate-900 dark:border-gray-700 dark:text-white" required>
+        <input type="date" v-model="task.endDate" id="endDate" class="mt-1 px-2 py-1 border rounded-lg w-full dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:[&::-webkit-calendar-picker-indicator]:invert" required>
       </div>
       <!-- Status -->
       <div>
@@ -68,10 +68,3 @@ export default {
   }
 }
 </script>
-
-<style>
-/* Invert calendar picker icon color in dark mode */
-input[type="date"]::-webkit-calendar-picker-indicator {
-  filter: invert(1);
-}
-</style>

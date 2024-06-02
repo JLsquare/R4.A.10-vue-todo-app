@@ -1,5 +1,10 @@
 # Vue.js Todo List
 
+[Déjà déployé ici](https://todo.jlsquare.fr/)
+
+- Jean-Loup Mellion
+- Gatien Da Rocha
+
 ## Installation et Utilisation
 
 ### Prérequis
@@ -30,7 +35,7 @@ npm install
 npm run dev
 ```
 
-2. **Ouvrez** `http://localhost:5173/` dans votre navigateur.
+2. **Ouvrez** [http://localhost:5173/](http://localhost:5173/) dans votre navigateur.
 
 ### Production
 
