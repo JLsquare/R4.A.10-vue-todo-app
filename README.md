@@ -1,5 +1,6 @@
-# Vue.js Todo List
+# Vue.js Todo List (FR)
 
+[Consignes](https://matthieu495.gitlab.io/r4.a.10/section/tp4/)
 [Déjà déployé ici](https://todo.jlsquare.fr/)
 
 - Jean-Loup Mellion
